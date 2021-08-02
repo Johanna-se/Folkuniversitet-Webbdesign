@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(218, 193, 201);
+    font-family:Arial, Georgia, 'Times New Roman', sans-serif;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 1200px;
+    background: rgb(204, 230, 190) url("Bild/background.jpg") no-repeat scroll left
+    /*Backgroundphoto by Artur Łuczka on Unsplash*/;
+}
+header{
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+}
+footer{
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 4;
+    grid-row-end: span end;
+}
+#rose {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#blomma {
+    grid-column-start: 3;
+    grid-column-end: span end;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.inlägg {
+    padding: 20px;
+    margin: 10px;
+    background-color: lavenderblush
+}
+section p {
+    text-align: left;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-size: 100pt;
+}
+h2, h3{
+    color:blue;
+    text-align: left;
+}
+#wiki{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+img {
+    width: 40%;
+    padding-right: 15px;
+    float: left;
+    display: inline-flex;
+    align-items: center;
+}
+a:link {
+    color:Blue;
+    display: flex;
+    justify-content: center;
+}
+a:visited {
+    color:green
+}

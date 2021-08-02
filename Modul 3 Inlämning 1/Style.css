@@ -1,0 +1,78 @@
+/*Globala regler*/
+body {
+    margin: auto;
+	font-family: "Helvetica Neue", "Liberation Sans", Calibri, Arial, sans-serif;
+	font-size: 100%;
+    background-color: rgb(230, 183, 168);
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header, footer{
+    flex: 0 0 99%;
+    background-color: rgb(206, 231, 229);
+    padding: 10px;
+}
+nav {
+    flex: 0 0 20%;
+    float: left;
+    height: 100%;
+    min-height: 800px;
+    width: 15%;
+    padding: 20px;
+    background: rgb(210, 236, 230) url("bild/background1.jpg") no-repeat scroll left
+     /*Backgroundphoto by eberhard grossgasteiger on Unsplash.com*/
+  
+}
+a:link {
+    color:rgb(8, 128, 54); 
+    background-color:transparent; 
+    text-decoration:none
+}   
+a:visited {
+    color:rgb(108, 3, 228); 
+    background-color:transparent; 
+    text-decoration:none
+}
+/*Återanvändningsbara classer*/
+.logo {
+    font-family: 'Cambria, Cochin', Georgia, Times, 'Times New Roman', serif;
+    color: rgb(180, 119, 98);
+    width: 200px;
+	height: 100px;
+    font-size: 500%;
+}
+/*Regler för columner*/
+#leftcolumn {
+    flex: 0 0 50%;
+    float: left;
+    max-width: 58%;
+    min-height: 800px;
+    background: rgb(210, 236, 230) url("bild/background2.jpg") no-repeat scroll center
+    /*Backgroundphoto by eberhard grossgasteiger on Unsplash.com*/
+}
+#leftcolumn article{
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(37, 26, 22, 0.2), 0 6px 20px 0 rgba(37, 26, 22, 0.2);
+}
+#leftcolumn img {
+    width: 40%;
+    padding-right: 15px;
+    float: left;
+    display: inline-flex;
+    align-items: center;
+}
+#rightcolumn {
+    flex: 0 0 20%;
+    float: left;
+    padding: 20px;
+    height: 100%;
+    max-width: 20%;
+    background: rgb(210, 236, 230) url("bild/background3.jpg") no-repeat scroll left
+    /*Backgroundphoto by eberhard grossgasteiger on Unsplash.com*/
+}
+
+

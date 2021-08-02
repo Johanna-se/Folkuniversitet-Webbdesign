@@ -1,0 +1,31 @@
+body {
+    background-color: lavenderblush;
+    font-family:Arial, Georgia, 'Times New Roman', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+h2, h3{
+    color:blue;
+    text-align: left;
+}
+#wiki{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+img {
+    display: block;
+    margin-right: auto;
+}
+a:link {
+    color:Blue;
+    display: flex;
+    justify-content: center;
+}
+a:visited {
+    color:green
+}
