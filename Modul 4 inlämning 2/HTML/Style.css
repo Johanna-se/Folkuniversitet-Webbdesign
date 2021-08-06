@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/*Global rules*/
+body {
+    margin: auto;
+	font-family: "Helvetica Neue", "Liberation Sans", Calibri, Arial, sans-serif;
+	font-size: 100%;
+    background-color: rgb(128, 255, 128);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 10% 50% 20% 20%;
+}
+header, footer{
+    background-color:rgb(128, 255, 128);
+}
+header{
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+}
+footer{
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 4;
+    grid-row-end: end;
+    display: flex;
+    justify-content: right;
+}
+footer p {
+    font-family:"Orbitron", monospace;
+    font-size: 80%;
+    padding: 20px;
+}
+nav {
+    grid-column-start: 4;
+    grid-column-end: span end;
+    grid-row-start: 1;
+    grid-row-end: end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+nav a:link{
+    text-decoration: none;
+    font-family: "Orbitron", monospace;
+    color:rgb(74, 42, 100)
+}
+h2 {
+    font-family: 'Syncopate', sans-serif;
+}
+/*Rules for logo*/
+.logo {
+    font-family: "Orbitron", monospace;
+    font-size: 250%;
+    padding-left: 50px;
+    color:rgb(74, 42, 100);
+}
+.logo a:link{
+    text-decoration: none;
+}
+/*Rules for herobanner*/
+.herobanner {
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: white;
+    border-top: 2px solid rgb(64, 186, 46);
+    border-bottom: 2px solid rgb(64, 186, 46);
+}
+.herobanner h3 {
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 150%;
+    padding: 30px;
+}
+/*Rules for mainpage */
+#mainpage .main {
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: right;
+    background-color: rgb(64, 186, 46);
+}
+#mainpage #leftmain{
+    background-color: white;
+    margin: 40px;
+    padding: 20px;
+    width: 100%;
+}
+#leftmain p{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 150%;
+}
+#mainpage img{
+    max-height: 520px;
+}
+/*Rules for subpage */
+.subpage .main {
+    grid-column-start: 1;
+    grid-column-end: span end;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: left;
+    background-color: rgb(64, 186, 46);
+}
+.subpage .submain {
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subpage h2{
+    text-align: center;
+}
+/*Rules for Subpage table*/
+.subpage .submain table {
+    border-spacing: 0;
+    border: 2px solid rgb(64, 186, 46);
+    width: 80%;
+    margin: 1em auto 2em;
+    box-shadow: 0 4px 8px 0 rgba(37, 26, 22, 0.2), 0 6px 20px 0 rgba(37, 26, 22, 0.2);
+}
+.subpage .submain thead{
+    font-size: 120%;
+    text-align: left;
+}
+.subpage .submain th, td {
+    padding: 1rem 1rem 1rem;
+}
+.subpage .submain tr:hover {
+    background-color: rgb(128, 255, 128);
+}
+/*Rules for Subpage pris*/
+#mainpriser img {
+    max-height: 520px;
+}
+/*Rules for Subpage schema*/
+#mainschema img {
+    max-height: 700px;
+}
+/*Rules for Subpage Vision*/
+#mainvision img {
+    max-height: 500px;
+}
