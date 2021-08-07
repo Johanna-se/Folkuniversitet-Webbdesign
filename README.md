@@ -19,6 +19,6 @@ Modul 3
 	3.2 A
 Modul 4
 	4.1 A
-	4.2 To be added
+	4.2 A
 
 The book uesed for the course was: Webbutveckling 1 2A Upplagan by Lars Gunther.
